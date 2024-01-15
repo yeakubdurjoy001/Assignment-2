@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,700;1,800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,700;1,800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800&display=swap");
+body {
+  font-family: "Mulish", "sans-serif";
+  max-width: 1440px;
+}
+header img {
+  width: 48px;
+  height: 56px;
+}
+.website-title-and-logo {
+  display: flex;
+  gap: 20px;
+  font-size: 36px;
+  font-weight: 800;
+  align-items: center;
+}
+
+.navbar-content ul {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  gap: 20px;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 40px;
+  align-items: center;
+}
+
+.color-text {
+  color: #ff5400;
+  font-size: 36px;
+  font-weight: 800;
+}
+.color-text1 {
+  color: #ff5400;
+}
