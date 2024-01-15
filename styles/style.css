@@ -108,10 +108,43 @@ header img {
 }
 .btn-primary {
   border-radius: 8px;
+  color: #fff;
   background: #ff5400;
   width: 144px;
   height: 42px;
   border: none;
   cursor: pointer;
   font-family: "Mulish", "sans-serif";
+  font-weight: 800;
+}
+.favourite-section {
+  align-items: center;
+}
+.info-header {
+  color: #131313;
+  font-weight: 800;
+  font-size: 40px;
+}
+.info-descriptions {
+  width: 577px;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+.list-text {
+  width: 525px;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+.info-descriptions2 {
+  width: 530px;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 60px;
+}
+.favourite-container {
+  display: flex;
+  justify-content: space-around;
 }
