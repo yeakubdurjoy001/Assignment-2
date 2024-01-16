@@ -1,4 +1,8 @@
 @media screen and (max-width: 600px) {
+  body {
+    width: 375px;
+    height: auto;
+  }
   .heading-text {
     text-align: left;
     width: 500px;
@@ -46,15 +50,31 @@
   .grid-img-container2,
   .grid-img-container3 {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1fr);
   }
   .favourite-container {
     flex-direction: column;
     gap: 26px;
   }
   .destination img {
-    width: 560px;
-    height: 280px;
+    width: 435px;
+    height: 200px;
+    margin-left: 50px;
     align-items: center;
+  }
+  .features-container {
+    flex-direction: column;
+  }
+  .offer-and-recommendation {
+    width: 500px;
+    flex-direction: column;
+    margin: 20px 30px;
+  }
+  .newsletter-section {
+    flex-direction: column;
+    width: 335px;
+    height: 353px;
+    flex-shrink: 0;
+    gap: 20px;
   }
 }
