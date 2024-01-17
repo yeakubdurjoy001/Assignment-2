@@ -91,7 +91,37 @@ header img {
   width: 55%;
   margin: 0 auto;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 10px;
+}
+#where {
+  border-radius: 8px;
+  color: rgba(19, 19, 24, 0.5);
+  background: #fff;
+  width: 144px;
+  height: 42px;
+  border: none;
+  font-family: "Mulish", "sans-serif";
+  font-weight: 800;
+}
+#when {
+  border-radius: 8px;
+  color: rgba(19, 19, 24, 0.5);
+  background: #fff;
+  width: 144px;
+  height: 42px;
+  border: none;
+  font-family: "Mulish", "sans-serif";
+  font-weight: 800;
+}
+#Select {
+  border-radius: 8px;
+  color: rgba(19, 19, 24, 0.5);
+  background: #fff;
+  width: 144px;
+  height: 42px;
+  border: none;
+  font-family: "Mulish", "sans-serif";
+  font-weight: 800;
 }
 
 .info-collector form {
@@ -147,7 +177,7 @@ select {
 }
 .favourite-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-shrink: 0;
   flex-grow: 0;
 }
@@ -238,6 +268,7 @@ select {
 /* Offer and recommendation related styles*/
 .offer-and-recommendation {
   display: flex;
+  justify-content: space-between;
   margin: 50px auto;
   gap: 20px;
   flex-basis: 40%;
@@ -319,6 +350,27 @@ select {
 .newsletter-img {
   height: 422px;
   flex-shrink: 0;
+}
+.newsletter-img {
+  position: relative;
+  text-align: center;
+}
+.text {
+  position: absolute;
+  top: 64%;
+  left: 51%;
+  transform: rotate(-19.628deg);
+  width: 280px;
+  height: 80px;
+  border-radius: 10px;
+  background: #ff5400;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+}
+#text-bold {
+  font-weight: 800;
 }
 
 .newsletter-img img {

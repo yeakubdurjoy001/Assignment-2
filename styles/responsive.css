@@ -14,12 +14,14 @@
   .travel-details {
     height: auto;
   }
-
+  .travel-details {
+    background-size: 100% 100%;
+  }
   .info-collector {
     flex-direction: column;
     height: auto;
     padding: 15px;
-    width: 85%;
+    width: 30%;
   }
 
   .info-collector form {
@@ -67,5 +69,23 @@
 
   .newsletter-section {
     flex-direction: column;
+  }
+  .newsletter-img {
+    position: relative;
+    text-align: center;
+  }
+  .text {
+    position: absolute;
+    top: 42%;
+    left: 37%;
+    transform: rotate(-19.628deg);
+    width: 280px;
+    height: 80px;
+    border-radius: 10px;
+    background: #ff5400;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
   }
 }
