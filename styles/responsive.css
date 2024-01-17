@@ -2,6 +2,11 @@
   .website-title-and-logo {
     font-size: 20px;
   }
+  .color-text {
+    color: #ff5400;
+    font-size: 20px;
+    font-weight: 800;
+  }
 
   .navbar-content ul {
     display: none;
