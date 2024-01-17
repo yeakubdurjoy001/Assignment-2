@@ -1,80 +1,71 @@
 @media screen and (max-width: 600px) {
-  body {
-    width: 375px;
+  .website-title-and-logo {
+    font-size: 20px;
+  }
+
+  .navbar-content ul {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .travel-details {
     height: auto;
   }
-  .heading-text {
-    text-align: left;
-    width: 500px;
-    padding-left: 70px;
-    font-size: 50px;
-    padding-top: 10px;
-    padding-bottom: 0;
-    margin-bottom: 10px;
-  }
-  .heading-descriptions {
-    text-align: left;
-    width: 500px;
-    padding-left: 70px;
-  }
+
   .info-collector {
-    display: flex;
-    width: 187px;
-    height: 220px;
-    padding: 16px;
     flex-direction: column;
-    align-content: center;
-    gap: 16px;
-    padding-top: 60px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.3);
-    position: relative;
-    left: 175px;
-    top: 0px;
+    height: auto;
+    padding: 15px;
+    width: 85%;
   }
-  .travel-details {
-    background-image: linear-gradient(
-        180deg,
-        rgba(19, 19, 24, 0.8) 0%,
-        rgba(19, 19, 24, 0) 100%
-      ),
-      url("../images/beach1.png");
-    background-repeat: no-repeat;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 16px;
+
+  .info-collector form {
+    flex-direction: column;
+  }
+
+  .info-collector > form > div > input,
+  select {
+    display: inline-block;
+    width: 310px;
+  }
+
+  .info-collector > form > div > input {
+    display: inline-block;
+    width: 290px;
+  }
+
+  .info-collector > form {
+    width: 80%;
+  }
+
+  .heading-text-content h4 {
+    font-size: 40px;
+  }
+
+  .favourite-container {
+    flex-direction: column;
+    gap: 15px;
   }
 
   .grid-img-container1,
   .grid-img-container2,
   .grid-img-container3 {
-    display: grid;
-    grid-template-columns: repeat(1fr);
+    grid-template-columns: 1fr;
+    gap: 15px;
   }
-  .favourite-container {
-    flex-direction: column;
-    gap: 26px;
+
+  .features-container div {
+    flex-basis: 100%;
   }
-  .destination img {
-    width: 435px;
-    height: 200px;
-    margin-left: 50px;
-    align-items: center;
-  }
-  .features-container {
-    flex-direction: column;
-  }
+
   .offer-and-recommendation {
-    width: 500px;
     flex-direction: column;
-    margin: 20px 30px;
   }
+
   .newsletter-section {
     flex-direction: column;
-    width: 335px;
-    height: 353px;
-    flex-shrink: 0;
-    gap: 20px;
   }
 }
